@@ -21,9 +21,9 @@ async fn main() -> io::Result<()> {
 
     // -- set non-loop vars
     let first_start_time = time::Instant::now();
-    let source_files_dir: String = "./source_files".to_string();
+    let source_files_dir: String = "../source_files".to_string();
     let pattern: String = format!( "{}/*.mrc", source_files_dir );
-    let output_filepath: String = "./output.txt".to_string();
+    let output_filepath: String = "../output.txt".to_string();
 
     // -- initialize vars for loop
     let title_field_tag: String = "245".to_string();
